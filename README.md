@@ -1,61 +1,115 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Practica
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Objetivo de la práctica
+Desarrollar la implementación del prototipo asignado en una vista web de Laravel. Este repositorio se considera el `proyecto base` y contiene el código fuente sobre el que deberá trabajar cada equipo.
 
-## About Laravel
+## Integrantes de cada equipo considerados:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Equipo 1
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Esme Nava  
+Fernando Altamirano  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+### Equipo 2
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Cuauhtemoc Lemus   
+Jessica Marybel Contreras   
+Malinali Gónzalez Lara   
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Equipo 3
 
-## Laravel Sponsors
+Raúl Ascencio Bolio.  
+Becerril Torres Teresa    
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Equipo 4
 
-### Premium Partners
+Macías Gómez Jorge  
+Samantha Itzel Correa Mandujano  
+José Carlos Buenrostro Rueda  
+Alvaro Hernández Hernández  
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+### Equipo 5
 
-## Contributing
+Velez Cardenas Juan Luis Guillermo  
+Luis Rafael Rivera Sotomayor  
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+# Generalidades del proyecto base
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Estado del proyecto base
 
-## Security Vulnerabilities
+El proyecto se desarrolló sobre la versión estable de Laravel Framework `8.13.0`.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Primeros paso
 
-## License
+1. Cada equipo debe descargar los últimos cambios de la rama `development` y en este estado pueden crear sus propias rama para guardar sus cambios. Cada rama que deseen crear debe tener el prefijo 'equipoN-', donde N es el equipo al que pertenecen.  
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**Pueden crear las ramas que creen convenientes.**
+
+2. Deberán avisar que comienzan la práctica como equipo. Para esto deberán realizar un primer commit con el tag "Equipo N inicia práctica" en una rama llamada `equipoN-iniciopractica`, donde N corresponde a el número de su equipo.  
+
+**Cualquier persona puede realizar este procedimiento.**  
+**Deberán avisar por el grupo de Telegram que realizaron esta acción.**  
+
+## Durante la entrega:
+
+1. Cuando hayan conseguido el objetivo de práctica, deberán hacer un push en una rama llamada `equipoN-entregapractica` con el commit "ENTREGA DE PRACTICA". Sólo un integrate del equipo deberá realizar este proceso.
+
+4. Deberá avisar en el grupo de Telegram que se entregó la práctica.
+
+## Después de la entrega de la práctica
+
+1. El ayudante revisa la rama correspondiente de acuerdo a su entrega por equipo. Después se integrará a la rama `development`.
+
+3. Para poder integrar su rama a la rama `development` deberán de haber subido sus cambios de la rama `equipoN-entregapractica` y haber notificado en el grupo de Telegram. SÓLO los ayudantes podrán integrar estas ramas a `development`.
+
+## Restricciones
+
+- **Sólo el ayudante puede integrar cambios a la rama `development`.**  
+
+- **Sólo deberán hacer push sobre ramas que ustedes hayan creado y que pertenezcan a su mismo equipo.**  
+
+- **Cualquier persona puede crear la rama que crea conveniente pero con la condición de que tenga el prefijo 'equipoN-'.**  
+
+# Desarrollo de la práctica
+
+## Prototipo
+
+1. El prototipo del cuál deberán tomar como referencia para entregar se encuentra en la carpeta del proyecto `documents/prototypes/`. El prototipo asignado a cada equipo corresponde al archivo pdf que lleve como nombre el número de equipo que les corresponde.
+
+## Consideraciones:
+
+1. Cada equipo tiene una sección dedicada para agregar rutas web en el archivo `routes/web.php` para que agregue las rutas definidas que cargan su prototipo.
+- El nombre de la ruta es a elección del equipo.
+- Se sugiere sólo escribir la sección que les corresponda.
+
+2. Cada equipo tiene una carpeta dedicada en la carpeta `public` con el nombre de su equipo para que puedan incluir cualquier recurso necesario para desarrollar el prototipo asignado.
+- El nombre de la ruta es a elección del equipo.
+- Se sugiere que sólo ocupen la carpeta que les corresponda.
+
+3. Cada equipo tiene una carpeta dedicada en la carpeta `resources/views/` para que incluyan los archivos blade necesarios para poder llegar al objetivo de la práctica.
+- El nombre del archivo es a elección del equipo.
+- Se sugiere que sólo ocupen la carpeta que les corresponda.
+
+**Pueden crear las carpetas que crean necesarias.**
+
+## Puntos extra:
+- La proposición de una paleta de colores de la vista web a entregar (1 punto).
+- Una propuesta de interacciones durante la navegación de la vista web a entregar. Dicha interacción deberá ser justificada (2 puntos).
+- Una propuesta de un negocio cuyo contenido se ajuste al diseño asignado. Dicha propuesta deberá ser justificada (2 puntos).
+
+**Los puntos extra se consideran sólo si se entregó la práctica.**
+
+# Retroalimentación
+A continuación deberán agregar algún comentario de acuerdo a su experiencia durante el desarrollo de la práctica en la sección que les corresponde.
+
+## Equipo 1
+
+## Equipo 2
+
+## Equipo 3
+
+## Equipo 4
+
+## Equipo 5
