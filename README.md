@@ -108,6 +108,7 @@ A continuación deberán agregar algún comentario de acuerdo a su experiencia d
 Nuestra experiencia fue positiva, aunque somos nuevos utilizando Laravel y tuvimos algunos problemas para hacer setup del entorno de desarrollo por lo que debimos de hacer configuraciones extras además de las que vienen en la documentación.  Al final pudimos resolverlas.
 
 ## Equipo 2
+-iniciando la practica
 
 
 ## Equipo 4
