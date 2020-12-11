@@ -27,5 +27,10 @@ Route::get('/equipodos', function () {
 });
 
 // Routes for 'Grupo 4'
+Route::prefix('equipo4')->group(function () {
+    Route::get('/prototipo', function () {
+        return view('equipo4.prototipo');
+    });
+});
 
 // Routes for 'Grupo 5'
