@@ -107,6 +107,7 @@ A continuación deberán agregar algún comentario de acuerdo a su experiencia d
 ## Equipo 1
 
 ## Equipo 2
+-iniciando la practica
 
 ## Equipo 3
 
