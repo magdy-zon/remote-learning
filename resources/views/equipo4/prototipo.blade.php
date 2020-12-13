@@ -3,7 +3,9 @@
   <head>
     <title>Equipo 4: Prototipo</title>
     <link rel="stylesheet" type="text/css" href="{{ mix('/equipo4/css/equipo4.css') }}"></link>
-  <link href="{!! url('/assets/materialize/css/materialize.css') !!}" rel="stylesheet">
+    <link href="{!! url('/assets/materialize/css/materialize.css') !!}" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   </head>
   <body>
@@ -14,33 +16,33 @@
       </div>
 
       <div class="row" id="primary-cards">
-          <div class="col s3 m3">
+          <div class="col s12 m3">
             <div class="card grey-color small">
             </div>
           </div>
 
-          <div class="col s3 m3">
+          <div class="col s12 m3">
             <div class="card grey-color small">
             </div>
           </div>
 
-          <div class="col s3 m3">
+          <div class="col s12 m3">
             <div class="card grey-color small">
             </div>
           </div>
 
-          <div class="col s3 m3">
+          <div class="col s12 m3">
             <div class="card grey-color small">
             </div>
           </div>
       </div>
 
       <div class="row" id="secondary-cards">
-          <div class="col s6 m6 offset-s1 offset-m1">
+          <div class="col s12 m6 offset-m1">
             <div class="card grey-color large">
             </div>
           </div>
-          <div class="col s4 m4">
+          <div class="col s12 m4">
             <div class="card grey-color medium">
             </div>
             <div class="card grey-color medium">
