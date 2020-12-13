@@ -6,21 +6,67 @@ body {
 .header {
   background-color: #C8C8C8;
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   margin-top: 10vh;
 }
 
-.card {
-  margin: 15px !important;
-  border-radius: 20px !important;
+.footer {
+  background-color: #C8C8C8;
+  width: 100%;
+  height: 118vh;
+  margin-top: -25vh;
 }
 
 .grey-color {
   background-color: #E8E8E8 !important;
 }
 
-#cards {
+.card {
+  border-radius: 20px !important;
+}
+
+.small {
+  height: 220px !important;
+}
+
+.medium {
+  height: 400px !important;
+}
+
+.large {
+  height: 640px !important;
+}
+
+#primary-cards {
   margin-top: 3vh;
+}
+
+#secondary-cards {
+  height: 50vh;
+  margin: 30vh 3vw 0 3vw;
+}
+
+#secondary-cards .medium {
+  height: 300px !important;
+}
+
+#primary-cards .card {
+  margin: 15px !important;
+}
+
+#secondary-cards .card {
+  margin: 40px !important;
+}
+
+#content {
+  margin: 40vh 2vw 20vh 2vh;
+}
+
+#content p {
+  font-size: 25pt;
+  text-align: center;
+  font-weight: 500;
+  line-height: 35px;
 }
 
 #title {
@@ -30,6 +76,6 @@ body {
 
 h1 {
   font-size: 45pt;
-  font-family: 'Sans-serif';
+  font-family: Arial, sans-serif;
   font-weight: normal;
 }
