@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #C8C8C8;
+  width: 100%;
+  height: 110vh;
+  margin-top: 10vh;
+}
+
+.card {
+  margin: 15px !important;
+  border-radius: 20px !important;
+}
+
+.grey-color {
+  background-color: #E8E8E8 !important;
+}
+
+#cards {
+  margin-top: 3vh;
+}
+
+#title {
+  padding-top: 70vh;
+  padding-left: 10vw;
+}
+
+h1 {
+  font-size: 45pt;
+  font-family: 'Sans-serif';
+  font-weight: normal;
+}
