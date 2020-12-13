@@ -112,4 +112,30 @@ A continuación deberán agregar algún comentario de acuerdo a su experiencia d
 
 ## Equipo 4
 
+1.- Agregamos Laravel Mix para la compilación de Webpack.
+
+2.- Agregamos Browser Sync al projecto, ya que nos permite ahorrar tiempo a la hora de escribir CSS, evitándonos tener que recargar la página cada que hacemos cambios en nuestro CSS.
+
+3.- Agregamos nuestra carpeta de recursos (CSS) en /resources y con la regla postCss en laravel mix, compilamos nuestro CSS a la carpeta destino /public siguiendo la estructura defininida para el proyecto.
+
+4.- Agregamos versionado a los ficheros css, de tal forma que no tengamos que estar vaciando la memoria cache del navegador cada que modificamos o agregamos código a nuestro CSS.
+
+5.- Definimos un prefijo para nuestras rutas, de tal forma que sea más legible la definición de nuestras rutas, y que podamos encapsular de manera más limpia las que corresponden exclusivamente a nuestro equipo.
+
+6.- Para desplegar el proyecto en ambiente de desarrollo, necesitamos compilar los assets, para ello tenemos que instalar previamente las dependencias de node ejecutando
+
+```npm install```
+
+Levantamos nuestro servidor php con
+
+```php artisan serve```
+
+Y finalmente ejecutamos
+
+```npm run watch```
+
+Esto levantara nuestro browser sync abriendo nuestro navegador en http://localhost:3000/ y se encargar de ver los cambios que hagamos a nuestros blades así como CSS (y Js) y recargará automáticamente cuanda haya nuevos cambios.
+
+7.- Nuestro prototipo se puede consultar en http://localhost:3000/equipo4/prototipo, se hizo un intento por agregar mobile design.
+
 ## Equipo 5
