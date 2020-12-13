@@ -11,7 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
+mix.browserSync(process.env.MIX_BROWSERSYNC_PROXY || 'localhost:8000');
+
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
-    ]);
+    ])
+    .postCss('resources/equipo4/css/equipo4.css', 'public/equipo4/css')
+    .version();
