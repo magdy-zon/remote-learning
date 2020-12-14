@@ -115,7 +115,7 @@ Tuvimos muchos problemas con la configuración de laravel, nos daba muchos error
 
 1.- Agregamos Laravel Mix para la compilación de Webpack.
 
-2.- Agregamos Browser Sync al projecto, ya que nos permite ahorrar tiempo a la hora de escribir CSS, evitándonos tener que recargar la página cada que hacemos cambios en nuestro CSS.
+2.- Agregamos Browser Sync al proyecto, ya que nos permite ahorrar tiempo a la hora de escribir CSS, evitándonos tener que recargar la página cada que hacemos cambios en nuestro CSS.
 
 3.- Agregamos nuestra carpeta de recursos (CSS) en /resources y con la regla postCss en laravel mix, compilamos nuestro CSS a la carpeta destino /public siguiendo la estructura defininida para el proyecto.
 
