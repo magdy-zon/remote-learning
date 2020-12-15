@@ -20,6 +20,9 @@ Route::get('/', function () {
 // Routes for 'Grupo 1'
 
 // Routes for 'Grupo 2'
+Route::get('/equipodos', function () {
+    return view('equipo2');
+});
 
 // Routes for 'Grupo 3'
 
