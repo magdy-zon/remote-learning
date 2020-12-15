@@ -22,6 +22,9 @@ Route::get('/equipo1-3', function () {
     return view('equipo1y3/equipo1y3');
 });
 // Routes for 'Grupo 2'
+Route::get('/equipodos', function () {
+    return view('equipo2');
+});
 
 // Routes for 'Grupo 4'
 
