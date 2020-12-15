@@ -108,7 +108,7 @@ A continuación deberán agregar algún comentario de acuerdo a su experiencia d
 Nuestra experiencia fue positiva, aunque somos nuevos utilizando Laravel y tuvimos algunos problemas para hacer setup del entorno de desarrollo por lo que debimos de hacer configuraciones extras además de las que vienen en la documentación.  Al final pudimos resolverlas.
 
 ## Equipo 2
--iniciando la practica
+Tuvimos muchos problemas con la configuración de laravel, nos daba muchos errores y no nos dejaba ver la página en el explorador, se tuvo que desinstalar e instalar varias veces y nunca se pudo instalar mix, así que se usó la carpeta publica para el archivo css  
 
 
 ## Equipo 4
