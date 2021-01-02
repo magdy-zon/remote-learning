@@ -17,11 +17,11 @@ Route::get('/', function () {
     return view('friday13');
 });
 
-// Routes for 'Grupo 1'
-
+// Routes for 'Grupo 1 y 3'
+Route::get('/equipo1-3', function () {
+    return view('equipo1y3/equipo1y3');
+});
 // Routes for 'Grupo 2'
-
-// Routes for 'Grupo 3'
 
 // Routes for 'Grupo 4'
 

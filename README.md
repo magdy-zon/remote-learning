@@ -104,11 +104,11 @@ El proyecto se desarrolló sobre la versión estable de Laravel Framework `8.13.
 # Retroalimentación
 A continuación deberán agregar algún comentario de acuerdo a su experiencia durante el desarrollo de la práctica en la sección que les corresponde.
 
-## Equipo 1
+## Equipo 1 y 3
+Nuestra experiencia fue positiva, aunque somos nuevos utilizando Laravel y tuvimos algunos problemas para hacer setup del entorno de desarrollo por lo que debimos de hacer configuraciones extras además de las que vienen en la documentación.  Al final pudimos resolverlas.
 
 ## Equipo 2
 
-## Equipo 3
 
 ## Equipo 4
 
