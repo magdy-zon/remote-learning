@@ -32,5 +32,3 @@ Route::prefix('equipo4')->group(function () {
         return view('equipo4.prototipo');
     });
 });
-
-// Routes for 'Grupo 5'

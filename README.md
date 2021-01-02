@@ -5,11 +5,12 @@ Desarrollar la implementación del prototipo asignado en una vista web de Larave
 
 ## Integrantes de cada equipo considerados:
 
-### Equipo 1
+### Equipo 1 y 3
 
 Esme Nava  
 Fernando Altamirano  
-
+Raúl Ascencio Bolio.  
+Becerril Torres Teresa   
 
 ### Equipo 2
 
@@ -17,22 +18,12 @@ Cuauhtemoc Lemus
 Jessica Marybel Contreras   
 Malinali Gónzalez Lara   
 
-### Equipo 3
-
-Raúl Ascencio Bolio.  
-Becerril Torres Teresa    
-
 ### Equipo 4
 
 Macías Gómez Jorge  
 Samantha Itzel Correa Mandujano  
 José Carlos Buenrostro Rueda  
 Alvaro Hernández Hernández  
-
-### Equipo 5
-
-Velez Cardenas Juan Luis Guillermo  
-Luis Rafael Rivera Sotomayor  
 
 
 # Generalidades del proyecto base
